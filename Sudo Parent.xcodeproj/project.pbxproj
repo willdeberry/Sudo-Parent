@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5D7BDDC26755F530045B406 /* Sudo_ParentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7BDDB26755F530045B406 /* Sudo_ParentApp.swift */; };
+		B5D7BDDE26755F530045B406 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7BDDD26755F530045B406 /* ContentView.swift */; };
+		B5D7BDE026755F550045B406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D7BDDF26755F550045B406 /* Assets.xcassets */; };
+		B5D7BDE326755F550045B406 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D7BDE226755F550045B406 /* Preview Assets.xcassets */; };
+		B5D7BDED26755F550045B406 /* Sudo_ParentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7BDEC26755F550045B406 /* Sudo_ParentTests.swift */; };
+		B5D7BDF726755F550045B406 /* Sudo_ParentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7BDF626755F550045B406 /* Sudo_ParentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5D7BDE926755F550045B406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5D7BDD026755F530045B406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5D7BDD726755F530045B406;
+			remoteInfo = "Sudo Parent";
+		};
+		B5D7BDF326755F550045B406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5D7BDD026755F530045B406 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5D7BDD726755F530045B406;
+			remoteInfo = "Sudo Parent";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5D7BDD826755F530045B406 /* Sudo Parent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sudo Parent.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D7BDDB26755F530045B406 /* Sudo_ParentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sudo_ParentApp.swift; sourceTree = "<group>"; };
+		B5D7BDDD26755F530045B406 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5D7BDDF26755F550045B406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5D7BDE226755F550045B406 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5D7BDE826755F550045B406 /* Sudo ParentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sudo ParentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D7BDEC26755F550045B406 /* Sudo_ParentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sudo_ParentTests.swift; sourceTree = "<group>"; };
+		B5D7BDF226755F550045B406 /* Sudo ParentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sudo ParentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D7BDF626755F550045B406 /* Sudo_ParentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sudo_ParentUITests.swift; sourceTree = "<group>"; };
+		B5D7BE0326757BE50045B406 /* Sudo Parent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sudo Parent.entitlements"; sourceTree = "<group>"; };
+		B5D7BE0426757BFC0045B406 /* Sudo-Parent-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sudo-Parent-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5D7BDD526755F530045B406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D7BDE526755F550045B406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D7BDEF26755F550045B406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5D7BDCF26755F530045B406 = {
+			isa = PBXGroup;
+			children = (
+				B5D7BDDA26755F530045B406 /* Sudo Parent */,
+				B5D7BDEB26755F550045B406 /* Sudo ParentTests */,
+				B5D7BDF526755F550045B406 /* Sudo ParentUITests */,
+				B5D7BDD926755F530045B406 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5D7BDD926755F530045B406 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5D7BDD826755F530045B406 /* Sudo Parent.app */,
+				B5D7BDE826755F550045B406 /* Sudo ParentTests.xctest */,
+				B5D7BDF226755F550045B406 /* Sudo ParentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5D7BDDA26755F530045B406 /* Sudo Parent */ = {
+			isa = PBXGroup;
+			children = (
+				B5D7BE0426757BFC0045B406 /* Sudo-Parent-Info.plist */,
+				B5D7BE0326757BE50045B406 /* Sudo Parent.entitlements */,
+				B5D7BDDB26755F530045B406 /* Sudo_ParentApp.swift */,
+				B5D7BDDD26755F530045B406 /* ContentView.swift */,
+				B5D7BDDF26755F550045B406 /* Assets.xcassets */,
+				B5D7BDE126755F550045B406 /* Preview Content */,
+			);
+			path = "Sudo Parent";
+			sourceTree = "<group>";
+		};
+		B5D7BDE126755F550045B406 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B5D7BDE226755F550045B406 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5D7BDEB26755F550045B406 /* Sudo ParentTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5D7BDEC26755F550045B406 /* Sudo_ParentTests.swift */,
+			);
+			path = "Sudo ParentTests";
+			sourceTree = "<group>";
+		};
+		B5D7BDF526755F550045B406 /* Sudo ParentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5D7BDF626755F550045B406 /* Sudo_ParentUITests.swift */,
+			);
+			path = "Sudo ParentUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5D7BDD726755F530045B406 /* Sudo Parent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D7BDFA26755F550045B406 /* Build configuration list for PBXNativeTarget "Sudo Parent" */;
+			buildPhases = (
+				B5D7BDD426755F530045B406 /* Sources */,
+				B5D7BDD526755F530045B406 /* Frameworks */,
+				B5D7BDD626755F530045B406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sudo Parent";
+			productName = "Sudo Parent";
+			productReference = B5D7BDD826755F530045B406 /* Sudo Parent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5D7BDE726755F550045B406 /* Sudo ParentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D7BDFD26755F550045B406 /* Build configuration list for PBXNativeTarget "Sudo ParentTests" */;
+			buildPhases = (
+				B5D7BDE426755F550045B406 /* Sources */,
+				B5D7BDE526755F550045B406 /* Frameworks */,
+				B5D7BDE626755F550045B406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5D7BDEA26755F550045B406 /* PBXTargetDependency */,
+			);
+			name = "Sudo ParentTests";
+			productName = "Sudo ParentTests";
+			productReference = B5D7BDE826755F550045B406 /* Sudo ParentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5D7BDF126755F550045B406 /* Sudo ParentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D7BE0026755F550045B406 /* Build configuration list for PBXNativeTarget "Sudo ParentUITests" */;
+			buildPhases = (
+				B5D7BDEE26755F550045B406 /* Sources */,
+				B5D7BDEF26755F550045B406 /* Frameworks */,
+				B5D7BDF026755F550045B406 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5D7BDF426755F550045B406 /* PBXTargetDependency */,
+			);
+			name = "Sudo ParentUITests";
+			productName = "Sudo ParentUITests";
+			productReference = B5D7BDF226755F550045B406 /* Sudo ParentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5D7BDD026755F530045B406 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					B5D7BDD726755F530045B406 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					B5D7BDE726755F550045B406 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = B5D7BDD726755F530045B406;
+					};
+					B5D7BDF126755F550045B406 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = B5D7BDD726755F530045B406;
+					};
+				};
+			};
+			buildConfigurationList = B5D7BDD326755F530045B406 /* Build configuration list for PBXProject "Sudo Parent" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5D7BDCF26755F530045B406;
+			productRefGroup = B5D7BDD926755F530045B406 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5D7BDD726755F530045B406 /* Sudo Parent */,
+				B5D7BDE726755F550045B406 /* Sudo ParentTests */,
+				B5D7BDF126755F550045B406 /* Sudo ParentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5D7BDD626755F530045B406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D7BDE326755F550045B406 /* Preview Assets.xcassets in Resources */,
+				B5D7BDE026755F550045B406 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D7BDE626755F550045B406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D7BDF026755F550045B406 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5D7BDD426755F530045B406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D7BDDE26755F530045B406 /* ContentView.swift in Sources */,
+				B5D7BDDC26755F530045B406 /* Sudo_ParentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D7BDE426755F550045B406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D7BDED26755F550045B406 /* Sudo_ParentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D7BDEE26755F550045B406 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D7BDF726755F550045B406 /* Sudo_ParentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5D7BDEA26755F550045B406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5D7BDD726755F530045B406 /* Sudo Parent */;
+			targetProxy = B5D7BDE926755F550045B406 /* PBXContainerItemProxy */;
+		};
+		B5D7BDF426755F550045B406 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5D7BDD726755F530045B406 /* Sudo Parent */;
+			targetProxy = B5D7BDF326755F550045B406 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B5D7BDF826755F550045B406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5D7BDF926755F550045B406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5D7BDFB26755F550045B406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sudo Parent/Sudo Parent.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sudo Parent/Preview Content\"";
+				DEVELOPMENT_TEAM = UVAVM9VF2P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sudo-Parent-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "Sudo Parent";
+				INFOPLIST_KEY_CFBundleName = "Sudo Parent";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sudoservers.Sudo-Parent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5D7BDFC26755F550045B406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sudo Parent/Sudo Parent.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sudo Parent/Preview Content\"";
+				DEVELOPMENT_TEAM = UVAVM9VF2P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sudo-Parent-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "Sudo Parent";
+				INFOPLIST_KEY_CFBundleName = "Sudo Parent";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sudoservers.Sudo-Parent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5D7BDFE26755F550045B406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVAVM9VF2P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sudoservers.Sudo-ParentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sudo Parent.app/Sudo Parent";
+			};
+			name = Debug;
+		};
+		B5D7BDFF26755F550045B406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVAVM9VF2P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sudoservers.Sudo-ParentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sudo Parent.app/Sudo Parent";
+			};
+			name = Release;
+		};
+		B5D7BE0126755F550045B406 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVAVM9VF2P;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sudoservers.Sudo-ParentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sudo Parent";
+			};
+			name = Debug;
+		};
+		B5D7BE0226755F550045B406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVAVM9VF2P;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sudoservers.Sudo-ParentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sudo Parent";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5D7BDD326755F530045B406 /* Build configuration list for PBXProject "Sudo Parent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D7BDF826755F550045B406 /* Debug */,
+				B5D7BDF926755F550045B406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D7BDFA26755F550045B406 /* Build configuration list for PBXNativeTarget "Sudo Parent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D7BDFB26755F550045B406 /* Debug */,
+				B5D7BDFC26755F550045B406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D7BDFD26755F550045B406 /* Build configuration list for PBXNativeTarget "Sudo ParentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D7BDFE26755F550045B406 /* Debug */,
+				B5D7BDFF26755F550045B406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D7BE0026755F550045B406 /* Build configuration list for PBXNativeTarget "Sudo ParentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D7BE0126755F550045B406 /* Debug */,
+				B5D7BE0226755F550045B406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5D7BDD026755F530045B406 /* Project object */;
+}
