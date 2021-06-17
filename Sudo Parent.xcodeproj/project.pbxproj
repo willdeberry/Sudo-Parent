@@ -13,6 +13,8 @@
 		B5D7BDE326755F550045B406 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D7BDE226755F550045B406 /* Preview Assets.xcassets */; };
 		B5D7BDED26755F550045B406 /* Sudo_ParentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7BDEC26755F550045B406 /* Sudo_ParentTests.swift */; };
 		B5D7BDF726755F550045B406 /* Sudo_ParentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7BDF626755F550045B406 /* Sudo_ParentUITests.swift */; };
+		B5D7BE06267581930045B406 /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7BE05267581930045B406 /* Authorization.swift */; };
+		B5D7BE08267589F40045B406 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7BE07267589F40045B406 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		B5D7BDF626755F550045B406 /* Sudo_ParentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sudo_ParentUITests.swift; sourceTree = "<group>"; };
 		B5D7BE0326757BE50045B406 /* Sudo Parent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sudo Parent.entitlements"; sourceTree = "<group>"; };
 		B5D7BE0426757BFC0045B406 /* Sudo-Parent-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sudo-Parent-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B5D7BE05267581930045B406 /* Authorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
+		B5D7BE07267589F40045B406 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				B5D7BDDB26755F530045B406 /* Sudo_ParentApp.swift */,
 				B5D7BDDD26755F530045B406 /* ContentView.swift */,
 				B5D7BDDF26755F550045B406 /* Assets.xcassets */,
+				B5D7BE05267581930045B406 /* Authorization.swift */,
+				B5D7BE07267589F40045B406 /* Model.swift */,
 				B5D7BDE126755F550045B406 /* Preview Content */,
 			);
 			path = "Sudo Parent";
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D7BE06267581930045B406 /* Authorization.swift in Sources */,
 				B5D7BDDE26755F530045B406 /* ContentView.swift in Sources */,
 				B5D7BDDC26755F530045B406 /* Sudo_ParentApp.swift in Sources */,
+				B5D7BE08267589F40045B406 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
